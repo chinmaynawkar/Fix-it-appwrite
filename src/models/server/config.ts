@@ -11,9 +11,9 @@ import {
 let client = new Client();
 
 client
-    .setEndpoint(env.appwrite.endpoint) // Your API Endpoint
-    .setProject(env.appwrite.projectId) // Your project ID
-    .setKey(env.appwrite.apiKey) // Your secret API key
+    .setEndpoint(env.appwrite.endpoint) 
+    .setProject(env.appwrite.projectId)
+    .setKey(env.appwrite.apiKey)
 ;
 
 const database = new Databases(client);
